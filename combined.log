@@ -1,0 +1,1376 @@
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly..."}
+{"level":"error","message":"error occured error occured","stack":"Error: error occured\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/genres.js:15:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"date":"Wed Jul 27 2022 01:48:11 GMT+0100 (Irish Standard Time)","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"exception":true,"level":"error","message":"unhandledRejection: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\nCastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[2.154296875,1.7783203125,1.59912109375],"uptime":98691},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":53930874,"external":54742790,"heapTotal":35143680,"heapUsed":31051872,"rss":76922880},"pid":7592,"uid":501,"version":"v18.5.0"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":21,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"model.Query.exec","line":4780,"method":"exec","native":false},{"column":15,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"Query.then","line":4879,"method":"then","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"date":"Wed Jul 27 2022 01:48:11 GMT+0100 (Irish Standard Time)","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"exception":true,"level":"error","message":"unhandledRejection: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\nCastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[2.154296875,1.7783203125,1.59912109375],"uptime":98691},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":53939090,"external":54751046,"heapTotal":35405824,"heapUsed":31325864,"rss":77021184},"pid":7592,"uid":501,"version":"v18.5.0"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":21,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"model.Query.exec","line":4780,"method":"exec","native":false},{"column":15,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"Query.then","line":4879,"method":"then","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"date":"Wed Jul 27 2022 01:48:11 GMT+0100 (Irish Standard Time)","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"exception":true,"level":"error","message":"unhandledRejection: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\nCastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[2.154296875,1.7783203125,1.59912109375],"uptime":98691},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":53947282,"external":54759238,"heapTotal":35405824,"heapUsed":31366960,"rss":77021184},"pid":7592,"uid":501,"version":"v18.5.0"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":21,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"model.Query.exec","line":4780,"method":"exec","native":false},{"column":15,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"Query.then","line":4879,"method":"then","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly..."}
+{"date":"Wed Jul 27 2022 01:48:39 GMT+0100 (Irish Standard Time)","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"exception":true,"level":"error","message":"unhandledRejection: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\nCastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[2.134765625,1.79638671875,1.60888671875],"uptime":98719},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55985762,"external":56798969,"heapTotal":64765952,"heapUsed":43128360,"rss":99581952},"pid":7608,"uid":501,"version":"v18.5.0"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":21,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"model.Query.exec","line":4780,"method":"exec","native":false},{"column":15,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"Query.then","line":4879,"method":"then","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"date":"Wed Jul 27 2022 01:48:39 GMT+0100 (Irish Standard Time)","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"exception":true,"level":"error","message":"unhandledRejection: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\nCastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[2.134765625,1.79638671875,1.60888671875],"uptime":98719},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55993978,"external":56807225,"heapTotal":64765952,"heapUsed":43183344,"rss":99696640},"pid":7608,"uid":501,"version":"v18.5.0"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":21,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"model.Query.exec","line":4780,"method":"exec","native":false},{"column":15,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"Query.then","line":4879,"method":"then","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"date":"Wed Jul 27 2022 01:48:39 GMT+0100 (Irish Standard Time)","error":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"1\"","value":"1","valueType":"string"},"exception":true,"level":"error","message":"unhandledRejection: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\nCastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[2.134765625,1.79638671875,1.60888671875],"uptime":98719},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":56002170,"external":56815417,"heapTotal":64765952,"heapUsed":43225024,"rss":99729408},"pid":7608,"uid":501,"version":"v18.5.0"},"stack":"CastError: Cast to ObjectId failed for value \"1\" (type string) at path \"_id\" for model \"Genre\"\n    at model.Query.exec (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4780:21)\n    at Query.then (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js:4879:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":21,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"model.Query.exec","line":4780,"method":"exec","native":false},{"column":15,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/mongoose/lib/query.js","function":"Query.then","line":4879,"method":"then","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"error","message":"customerId is not defined customerId is not defined","stack":"ReferenceError: customerId is not defined\n    at customerId (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:11:48)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"error","message":"customerId is not defined customerId is not defined","stack":"ReferenceError: customerId is not defined\n    at customerId (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:11:48)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"error","message":"customerId is not defined customerId is not defined","stack":"ReferenceError: customerId is not defined\n    at customerId (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:11:48)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"error","message":"customerId is not defined customerId is not defined","stack":"ReferenceError: customerId is not defined\n    at customerId (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:11:54)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"error","message":"customerId is not defined customerId is not defined","stack":"ReferenceError: customerId is not defined\n    at customerId (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:11:54)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"error","message":"customerId is not defined customerId is not defined","stack":"ReferenceError: customerId is not defined\n    at customerId (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:11:54)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"error","message":"customerId is not defined customerId is not defined","stack":"ReferenceError: customerId is not defined\n    at customerId (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:11:54)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:317:13)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:284:7"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"error","message":"Cannot read properties of null (reading 'numberInStock') Cannot read properties of null (reading 'numberInStock')","stack":"TypeError: Cannot read properties of null (reading 'numberInStock')\n    at movie (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:29:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"validateReturn is not defined validateReturn is not defined","stack":"ReferenceError: validateReturn is not defined\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/routes/returns.js:9:9\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/middleware/auth.js:11:5)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_test..."}
+{"date":"Thu Jul 28 2022 18:47:12 GMT+0100 (Irish Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\nError: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[2.09912109375,2.3037109375,2.2666015625],"uptime":246232},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55884413,"external":56678826,"heapTotal":63717376,"heapUsed":40923864,"rss":94896128},"pid":31872,"uid":501,"version":"v18.5.0"},"stack":"Error: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":11,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js","function":"module.exports","line":5,"method":"exports","native":false},{"column":28,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Thu Jul 28 2022 18:47:12 GMT+0100 (Irish Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\nError: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[2.09912109375,2.3037109375,2.2666015625],"uptime":246232},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55900821,"external":56695274,"heapTotal":63717376,"heapUsed":41038592,"rss":95092736},"pid":31872,"uid":501,"version":"v18.5.0"},"stack":"Error: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":11,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js","function":"module.exports","line":5,"method":"exports","native":false},{"column":28,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Thu Jul 28 2022 18:47:12 GMT+0100 (Irish Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\nError: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[2.09912109375,2.3037109375,2.2666015625],"uptime":246232},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55892629,"external":56687082,"heapTotal":63717376,"heapUsed":40987264,"rss":95027200},"pid":31872,"uid":501,"version":"v18.5.0"},"stack":"Error: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":11,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js","function":"module.exports","line":5,"method":"exports","native":false},{"column":28,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Thu Jul 28 2022 18:47:41 GMT+0100 (Irish Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\nError: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[2.18017578125,2.30517578125,2.2666015625],"uptime":246261},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55884413,"external":56678826,"heapTotal":63717376,"heapUsed":40887128,"rss":94863360},"pid":31904,"uid":501,"version":"v18.5.0"},"stack":"Error: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":11,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js","function":"module.exports","line":5,"method":"exports","native":false},{"column":28,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Thu Jul 28 2022 18:47:41 GMT+0100 (Irish Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\nError: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[2.18017578125,2.30517578125,2.2666015625],"uptime":246261},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55892629,"external":56687082,"heapTotal":63717376,"heapUsed":40950544,"rss":95010816},"pid":31904,"uid":501,"version":"v18.5.0"},"stack":"Error: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":11,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js","function":"module.exports","line":5,"method":"exports","native":false},{"column":28,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"date":"Thu Jul 28 2022 18:47:41 GMT+0100 (Irish Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.\nError: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","os":{"loadavg":[2.18017578125,2.30517578125,2.2666015625],"uptime":246261},"process":{"argv":["/opt/homebrew/Cellar/node/18.5.0/bin/node","/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js"],"cwd":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly","execPath":"/opt/homebrew/Cellar/node/18.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55900821,"external":56695274,"heapTotal":63717376,"heapUsed":41001936,"rss":95076352},"pid":31904,"uid":501,"version":"v18.5.0"},"stack":"Error: FATAL ERROR: jwtPrivateKey is not defined.\n    at module.exports (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js:5:11)\n    at Object.<anonymous> (/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js:7:28)\n    at Module._compile (node:internal/modules/cjs/loader:1112:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)\n    at Module.load (node:internal/modules/cjs/loader:988:32)\n    at Module._load (node:internal/modules/cjs/loader:834:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":11,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/startup/config.js","function":"module.exports","line":5,"method":"exports","native":false},{"column":28,"file":"/Users/yk_xyz/Desktop/coding-with-mosh-node-tutorial/vidly/index.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1112,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1166,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":988,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":834,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+{"level":"info","message":"Listening on port 3000..."}
+{"level":"info","message":"Connected to mongodb://localhost/vidly..."}
